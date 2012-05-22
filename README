@@ -6,8 +6,8 @@ computer.
 
 If you use Debian-Linux, install the necessary packages first. For other OSes
 do something similar.
-$ sudo apt-get install build-essential libreadline6-dev zlib1g-dev libbz2-dev
-$ sudo apt-get install libssl-dev libjpeg8-dev
+$ sudo apt-get install build-essential libreadline-dev zlib1g-dev libbz2-dev
+$ sudo apt-get install libssl-dev libjpeg-dev
 
 Then bootstrap the buildout with your system's python version:
 $ python bootstrap.py
